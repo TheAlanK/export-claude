@@ -49,7 +49,7 @@ function addButton() {
     `;
 
     button.addEventListener ("click", function() {
-        var text = getTextByClass('kwfvHx');
+        var text = getTextByClass('col-start-2');
         var blob = new Blob([text], {type: "text/plain;charset=utf-8"});
         var url = URL.createObjectURL(blob);
 
